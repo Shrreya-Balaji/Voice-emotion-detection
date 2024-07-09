@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wave">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Finding Emo"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/dancing_script"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="220dp"
+        android:textSize="32dp"/>
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="500px"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="163dp"
+        android:layout_marginTop="57dp"
+        android:background="@drawable/btn_rounded"
+        android:text="RECORD"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:id="@+id/btnStop"
+        android:layout_width="500px"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnStart"
+        android:layout_alignTop="@+id/btnStart"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="163dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/btn_rounded"
+        android:text="STOP"
+        android:textColor="#ffffff" />
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:layout_below="@+id/btnStop" />
+
+
+
+
+
+
+
+</RelativeLayout>
